@@ -40,7 +40,6 @@ function priceValid(price) {
 function priceByDiscount(price, discountType) {
     const discountsList = createDiscountList(discounts)
     let priceByDiscount = price
-    console.log(discountsList);
 
     if (discountType) {
         const currentDiscount = discountsList[discountType]
